@@ -17,7 +17,7 @@ vim.opt.wrap = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = vim.fn.expand("$USERPROFILE") .. "/nvim/undodir"
+vim.opt.undodir = vim.fn.expand("~/.config/nvim/undodir")
 vim.opt.undofile = true
 
 vim.opt.incsearch = true
